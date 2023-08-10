@@ -1,0 +1,24 @@
+.ourPartners {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 50px 0;
+}
+
+.ourPartners__title {
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 700;
+	padding-bottom: 50px;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 70%;
+		left: 48%;
+		width: 50px;
+		height: 4px;
+		background-color: #da1f21;
+	}
+}

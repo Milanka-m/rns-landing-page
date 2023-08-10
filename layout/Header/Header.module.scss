@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__navContainer {
+    width: calc(100% - 122px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__imgLink {
+    transition: 350ms ease all;
+    &:hover {
+        opacity: .6;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+	gap: 50px;
+}
+
+.header__navLink {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    transition: 350ms ease all;
+    cursor: pointer;
+    &:hover {
+        opacity: .6;
+    }
+}
+
+.header__socialLinks {
+    display: flex;
+    gap: 10px;
+}
